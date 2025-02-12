@@ -1,38 +1,68 @@
-/* HERO SECTION STYLING */
+body {
+    font-family: Arial, sans-serif;
+    background: #0a0a0a;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hero {
+    background: url('images/background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero .highlight {
+    color: #f4b400;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #f4b400;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px;
+}
+
+.skill {
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.progress {
+    width: 100%;
+    background: #333;
+    height: 10px;
+    border-radius: 5px;
+}
 .hero-section {
-    background: url('https://raw.githubusercontent.com/AlpharafGitHub/rafael-portfolio/main/images/rafBG1.jpg') 
-    no-repeat center center/cover;
-    height: 100vh; /* Full screen height */
+    background: url('images/rafBG1.jpg') no-repeat center center/cover;
+    height: 100vh; /* Full height of the viewport */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
-    position: relative;
+    color: white; /* Ensures the text is visible */
 }
-
-/* Optional: Add a Dark Overlay for Better Readability */
-.hero-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
-}
-
-.hero-content {
-    position: relative;
-    z-index: 2;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Makes text readable */
-}
-
-.hero-content h1 {
+.hero-section h1 {
     font-size: 3rem;
     font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds readability */
 }
-
-.hero-content p {
-    font-size: 1.5rem;
+.progress-bar {
+    height: 10px;
+    background: #f4b400;
 }
