@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0a0a0a;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hero {
+    background: url('images/background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero .highlight {
+    color: #f4b400;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #f4b400;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px;
+}
+
+.skill {
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.progress {
+    width: 100%;
+    background: #333;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    height: 10px;
+    background: #f4b400;
+}
