@@ -48,7 +48,20 @@ section {
     height: 10px;
     border-radius: 5px;
 }
-
+.hero-section {
+    background: url('images/rafBG1.jpg') no-repeat center center/cover;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white; /* Ensures the text is visible */
+}
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds readability */
+}
 .progress-bar {
     height: 10px;
     background: #f4b400;
