@@ -1,10 +1,6 @@
 /* HERO SECTION STYLING */
 .hero-section {
-<<<<<<< HEAD
-    background: url('https://raw.githubusercontent.com/AlpharafGitHub/rafael-portfolio/main/images/background.jpg') 
-=======
     background: url('https://raw.githubusercontent.com/AlpharafGitHub/rafael-portfolio/main/images/rafBG1.jpg') 
->>>>>>> 94f0c46ab04947527296eba1ad10056f481aa572
     no-repeat center center/cover;
     height: 100vh; /* Full screen height */
     display: flex;
